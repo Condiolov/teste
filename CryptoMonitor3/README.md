@@ -11,7 +11,7 @@ Certifique-se de ter os seguintes pacotes instalados:
 ## 📂 Estrutura do Plasmoid
 Seu plasmoid deve ter a seguinte estrutura:
 ```
-NOME_WIDGET/
+CryptoMonitor/
 ├── metadata.json
 ├── contents/
 │   ├── ui/
@@ -23,30 +23,13 @@ NOME_WIDGET/
 ## 🚀 Como Compilar o Plasmoid
 Para empacotar seu Plasmoid, execute o seguinte comando no terminal:
 ```sh
-zip -r NOME_WIDGET.plasmoid metadata.json contents/
+zip -r CryptoMonitor.plasmoid metadata.json contents/
 ```
-Isso criará um arquivo `NOME_WIDGET.plasmoid`, que pode ser instalado no KDE.
-
-## 🔧 Instalando o Plasmoid
-Após compilar o widget, instale-o com o seguinte comando:
-```sh
-plasmapkg2 -i NOME_WIDGET.plasmoid
-```
-Se precisar atualizar um Plasmoid já instalado:
-```sh
-plasmapkg2 -u NOME_WIDGET.plasmoid
-```
-Para remover:
-```sh
-plasmapkg2 -r NOME_WIDGET
-```
+Isso criará um arquivo `CryptoMonitor.plasmoid`, que pode ser instalado no KDE.
 
 ## ✅ Testando o Plasmoid
-Após a instalação, adicione o widget à área de trabalho do KDE:
-1. Clique com o botão direito na área de trabalho.
-2. Selecione **"Adicionar Widgets"**.
-3. Procure pelo nome do seu widget.
-4. Arraste para a área de trabalho ou painel.
+Arraste o widget para à área de trabalho do KDE:
+1. Clique em instalar
 
 Agora seu Plasmoid está pronto para uso! 🎉
 
