@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Define um arquivo de configuração no formato KCFG, usado pelo KDE para gerenciar configurações de aplicativos. -->
 <kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
-  <!-- Define o nome do arquivo de configuração. Se estiver vazio, o nome padrão será usado. -->
   <kcfgfile name=""/>
-  <!-- Define um grupo de configurações chamado "General". -->
   <group name="General">
-    <!-- Define uma entrada de configuração chamada "moedas", do tipo String, com um valor padrão "BTC,ETH,XRP". -->
     <entry name="moedas" type="String">
       <default>BTC,ETH,XRP</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "fundo", do tipo String, com um valor padrão "#5a000000" (cor em formato RGBA). -->
     <entry name="fundo" type="String">
       <default>#5a000000</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "tempo", do tipo Int, com um valor padrão 60. -->
     <entry name="tempo" type="Int">
       <default>60</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "cor1", do tipo String, com um valor padrão "#ffffff" (cor branca). -->
     <entry name="cor1" type="String">
       <default>#ffffff</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "cor2", do tipo String, com um valor padrão "#00ff00" (cor verde). -->
     <entry name="cor2" type="String">
       <default>#00ff00</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "cor3", do tipo String, com um valor padrão "#ff0000" (cor vermelha). -->
     <entry name="cor3" type="String">
       <default>#ff0000</default>
     </entry>
-    <!-- Define uma entrada de configuração chamada "cor4", do tipo String, com um valor padrão "#989898" (cor cinza). -->
     <entry name="cor4" type="String">
       <default>#989898</default>
     </entry>
