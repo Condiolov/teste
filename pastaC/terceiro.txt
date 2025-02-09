@@ -1,0 +1,56 @@
+# Automação Git
+
+Este projeto tem como objetivo automatizar tarefas comuns do Git, como adicionar arquivos, fazer commits com comentários automáticos e enviar mudanças para o repositório remoto.
+
+## Funcionalidades
+
+- Adicionar arquivos automaticamente ao Git.
+- Gerar comentários para commits com base em diffs ou conteúdos de arquivos.
+- Fazer commit e enviar mudanças para o repositório remoto (GitHub) utilizando token de acesso pessoal.
+- Verificar diferenças entre a versão local e a versão remota dos arquivos.
+
+## Requisitos
+
+- Git instalado na máquina.
+- Token de Acesso Pessoal (PAT) do GitHub (para autenticação no push).
+- Ferramentas como `curl`, `bash` e `git` para execução de scripts.
+
+## Como Usar
+
+1. Clone o Repositório:
+   Clone o repositório para sua máquina local:
+
+   git clone https://github.com/SEU_USUARIO/automacao-git.git
+
+2. Configuração Inicial:
+   Se necessário, configure o repositório remoto:
+
+   git remote add origin https://github.com/SEU_USUARIO/NOME_REPOSITORIO.git
+
+3. Automação do Commit:
+   Execute o script de automação para adicionar, comentar e fazer o commit dos arquivos.
+
+   Exemplo de comando para adicionar e comitar alterações:
+
+   ./automacao_git.sh
+
+4. Enviar para o Repositório Remoto:
+   Após o commit, envie as alterações para o repositório remoto:
+
+   git push origin main
+
+## Como Funciona
+
+1. O script verifica quais arquivos foram modificados.
+2. Adiciona os arquivos automaticamente ao Git.
+3. Gera um comentário resumido do `diff` ou do conteúdo do arquivo.
+4. Realiza o commit com o comentário gerado.
+5. Envia as alterações para o repositório remoto.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com o projeto! Abra uma issue ou envie um pull request com melhorias ou novos recursos.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
