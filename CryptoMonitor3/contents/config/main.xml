@@ -15,7 +15,7 @@
       <default>#ffffff</default>
     </entry>
     <entry name="cor2" type="String">
-      <default>#359e00</default>
+      <default>#00ff00</default>
     </entry>
     <entry name="cor3" type="String">
       <default>#ff0000</default>
