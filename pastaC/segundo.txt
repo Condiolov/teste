@@ -12,4 +12,6 @@ No GTA (Grand Theft Auto), se você está em uma missão onde precisa matar um a
 
 6. **Conclua a Missão**: Depois de eliminar o alvo e se livrar das ameaças, a missão deve ser concluída automaticamente ou você pode precisar retornar a um ponto específico.
 
+7. ai vc passa de fase!!
+
 Lembre-se de que cada missão pode ter suas próprias particularidades, então fique atento às instruções dadas durante o jogo. Boa sorte!
